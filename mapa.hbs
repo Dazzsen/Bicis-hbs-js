@@ -1,0 +1,38 @@
+<!--  VISTA DEL MAPA -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+
+  <h2>Busqueda de puestos</h2>
+
+  {{{body}}}
+
+        <body>
+          <div>
+              <input id="origin-input" class="controls" type="text"
+                  placeholder="¿Dónde quieres ir?">
+          </div>
+
+
+  <div id="map"></div>
+
+
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpbwdCfrfm6FNkp_eDoSWrJHEIwQGhByk">
+    </script>
+  <script src="/javascripts/script.js"></script>
+  <script src="/javascripts/main.js"></script>
+</body>
+</html>
